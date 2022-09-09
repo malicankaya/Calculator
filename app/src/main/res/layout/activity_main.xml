@@ -170,10 +170,20 @@
         android:layout_weight="1"
         >
         <Button
+            android:id="@+id/btnDot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/dot"
+            android:layout_margin="2dp"
+            android:onClick="onDecimalPoint"
+            tools:ignore="UsingOnClickInXml"
+            />
+        <Button
             android:id="@+id/btnZero"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:text="@string/_0"
             android:layout_margin="2dp"
             android:onClick="onDigit"
