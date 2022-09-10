@@ -65,7 +65,7 @@
             android:layout_weight="1"
             android:text="@string/divide"
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             tools:ignore="UsingOnClickInXml"
             />
     </LinearLayout>
@@ -112,7 +112,7 @@
             android:layout_weight="1"
             android:text="@string/multiply"
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             tools:ignore="UsingOnClickInXml"
             />
     </LinearLayout>
@@ -159,7 +159,7 @@
             android:layout_weight="1"
             android:text="@string/minus"
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             tools:ignore="UsingOnClickInXml"
             />
     </LinearLayout>
@@ -206,7 +206,7 @@
             android:layout_weight="1"
             android:text="@string/plus"
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             tools:ignore="UsingOnClickInXml"
             />
     </LinearLayout>
@@ -217,7 +217,7 @@
         android:layout_weight="1"
         android:text="@string/equal"
         android:layout_margin="2dp"
-        android:onClick="onDigit"
+        android:onClick="onEqual"
         tools:ignore="UsingOnClickInXml"
         />
 
